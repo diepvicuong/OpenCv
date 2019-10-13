@@ -1,0 +1,44 @@
+﻿Build started 15-Sep-18 1:11:20 PM.
+     1>Project "C:\Users\ASUS\Desktop\OpenCv_project\Bai_tap_3\Bai_tap_3\Bai_tap_3.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         F:\VS15\Visual Studio 2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Desktop\OpenCv_project\Bai_tap_3\Debug\Bai_tap_3.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\opencv\build\x64\vc14\lib opencv_world343.lib opencv_world343d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ASUS\Desktop\OpenCv_project\Bai_tap_3\Debug\Bai_tap_3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\Desktop\OpenCv_project\Bai_tap_3\Debug\Bai_tap_3.lib" /MACHINE:X86 Debug\Source.obj
+     1>Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z) referenced in function "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ)
+     1>Source.obj : error LNK2019: unresolved external symbol "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z) referenced in function "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z)
+     1>Source.obj : error LNK2019: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) referenced in function "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ)
+     1>Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHABVString@1@PBD1H@Z) referenced in function "public: float & __thiscall cv::Vec<float,3>::operator[](int)" (??A?$Vec@M$02@cv@@QAEAAMH@Z)
+     1>Source.obj : error LNK2019: unresolved external symbol "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ) referenced in function "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ)
+     1>Source.obj : error LNK2019: unresolved external symbol "public: __thiscall _IplImage::_IplImage(class cv::Mat const &)" (??0_IplImage@@QAE@ABVMat@cv@@@Z) referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvCreateImage referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvReleaseImage referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvCloneImage referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvGetSize referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvCreateMemStorage referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvReleaseMemStorage referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvGetSeqElem referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol "class cv::Mat __cdecl cv::cvarrToMat(void const *,bool,bool,int,class cv::AutoBuffer<double,136> *)" (?cvarrToMat@cv@@YA?AVMat@1@PBX_N1HPAV?$AutoBuffer@N$0II@@1@@Z) referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@ABVString@1@H@Z) referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::imshow(class cv::String const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXABVString@1@ABV_InputArray@debug_build_guard@1@@Z) referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvCvtColor referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvFindContours referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvApproxPoly referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvArcLength referenced in function _cvContourPerimeter
+     1>Source.obj : error LNK2019: unresolved external symbol _cvThreshold referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvLine referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvCircle referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvNamedWindow referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvShowImage referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvDestroyAllWindows referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol _cvWaitKey referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::HoughCircles(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,double,double,double,double,int,int)" (?HoughCircles@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@HNNNNHH@Z) referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::rectangle(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?rectangle@cv@@YAXABV_InputOutputArray@debug_build_guard@1@V?$Point_@H@1@1ABV?$Scalar_@N@1@HHH@Z) referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::circle(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int>,int,class cv::Scalar_<double> const &,int,int,int)" (?circle@cv@@YAXABV_InputOutputArray@debug_build_guard@1@V?$Point_@H@1@HABV?$Scalar_@N@1@HHH@Z) referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::fillPoly(class cv::Mat &,class cv::Point_<int> const * *,int const *,int,class cv::Scalar_<double> const &,int,int,class cv::Point_<int>)" (?fillPoly@cv@@YAXAAVMat@1@PAPBV?$Point_@H@1@PBHHABV?$Scalar_@N@1@HHV31@@Z) referenced in function _main
+     1>Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::putText(class cv::debug_build_guard::_InputOutputArray const &,class cv::String const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXABV_InputOutputArray@debug_build_guard@1@ABVString@1@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z) referenced in function _main
+     1>F:\opencv\build\x64\vc14\lib\opencv_world343.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+     1>F:\opencv\build\x64\vc14\lib\opencv_world343d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+     1>C:\Users\ASUS\Desktop\OpenCv_project\Bai_tap_3\Debug\Bai_tap_3.exe : fatal error LNK1120: 32 unresolved externals
+     1>Done Building Project "C:\Users\ASUS\Desktop\OpenCv_project\Bai_tap_3\Bai_tap_3\Bai_tap_3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.35
