@@ -1,0 +1,27 @@
+﻿Build started 13-Sep-18 11:46:59 PM.
+     1>Project "C:\Users\ASUS\Desktop\OpenCv_project\Image_Processing_Test\Image_Processing_Test\Image_Processing_Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\VS15\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /IF:\opencv\build\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>MyForm.cpp(6): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+     1>f:\opencv\build\include\opencv2\core\cvstd.hpp(575): warning C4793: 'cv::String::String': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>f:\opencv\build\include\opencv2\core\mat.inl.hpp(483): warning C4793: 'cv::Mat::Mat': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>f:\opencv\build\include\opencv2\core\mat.inl.hpp(2143): warning C4793: 'cv::SparseMat::addref': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>f:\opencv\build\include\opencv2\core\mat.inl.hpp(3743): warning C4793: 'cv::UMat::addref': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>f:\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: 'cv::detail::PtrOwner::incRef': function compiled as native:
+         	Found an intrinsic not supported in managed code
+     1>f:\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: 'cv::detail::PtrOwner::decRef': function compiled as native:
+         	Found an intrinsic not supported in managed code
+       Link:
+         F:\VS15\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Desktop\OpenCv_project\Image_Processing_Test\x64\Debug\Image_Processing_Test.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\opencv\build\x64\vc14\lib opencv_world343d.lib /ASSEMBLYRESOURCE:x64\Debug\Image_Processing_Test.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ASUS\Desktop\OpenCv_project\Image_Processing_Test\x64\Debug\Image_Processing_Test.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\MyForm.obj
+         "x64\Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         Image_Processing_Test.vcxproj -> C:\Users\ASUS\Desktop\OpenCv_project\Image_Processing_Test\x64\Debug\Image_Processing_Test.exe
+     1>Done Building Project "C:\Users\ASUS\Desktop\OpenCv_project\Image_Processing_Test\Image_Processing_Test\Image_Processing_Test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.70

@@ -1,0 +1,15 @@
+﻿Build started 10-Sep-18 6:45:01 PM.
+     1>Project "C:\Users\ASUS\Desktop\OpenCv_project\Image_Processing_Test\Image_Processing_Test\Image_Processing_Test.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         F:\VS15\Visual Studio 2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Desktop\OpenCv_project\Image_Processing_Test\Debug\Image_Processing_Test.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\opencv\build\x64\vc14\lib opencv_world343d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ASUS\Desktop\OpenCv_project\Image_Processing_Test\Debug\Image_Processing_Test.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\MyForm.obj
+         "Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+     1>MyForm.obj : error LNK2028: unresolved token (0A000721) "public: void __thiscall cv::UMat::copySize(class cv::UMat const &)" (?copySize@UMat@cv@@$$FQAEXABV12@@Z) referenced in function "public: __thiscall cv::UMat::UMat(class cv::UMat const &)" (??0UMat@cv@@$$FQAE@ABV01@@Z)
+     1>MyForm.obj : error LNK2019: unresolved external symbol "public: void __thiscall cv::UMat::copySize(class cv::UMat const &)" (?copySize@UMat@cv@@$$FQAEXABV12@@Z) referenced in function "public: __thiscall cv::UMat::UMat(class cv::UMat const &)" (??0UMat@cv@@$$FQAE@ABV01@@Z)
+     1>MyForm.obj : error LNK2019: unresolved external symbol "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@QAEXABV12@@Z) referenced in function "public: __thiscall cv::Mat::Mat(class cv::Mat const &)" (??0Mat@cv@@QAE@ABV01@@Z)
+     1>F:\opencv\build\x64\vc14\lib\opencv_world343d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+     1>C:\Users\ASUS\Desktop\OpenCv_project\Image_Processing_Test\Debug\Image_Processing_Test.exe : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\ASUS\Desktop\OpenCv_project\Image_Processing_Test\Image_Processing_Test\Image_Processing_Test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.36

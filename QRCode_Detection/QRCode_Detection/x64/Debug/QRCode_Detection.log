@@ -1,0 +1,31 @@
+﻿Build started 19-Sep-18 11:33:30 AM.
+     1>Project "C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\QRCode_Detection\QRCode_Detection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\VS15\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /IF:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(226): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(227): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(228): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(59): warning C4101: 'arear': unreferenced local variable
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(59): warning C4101: 'large': unreferenced local variable
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(59): warning C4101: 'padding': unreferenced local variable
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(59): warning C4101: 'areat': unreferenced local variable
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(59): warning C4101: 'areab': unreferenced local variable
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(196): warning C4101: 'area_right': unreferenced local variable
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(196): warning C4101: 'area_bottom': unreferenced local variable
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(196): warning C4101: 'area_top': unreferenced local variable
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(397): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(398): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(400): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(401): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(455): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\asus\desktop\opencv_project\qrcode_detection\qrcode_detection\source.cpp(456): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+       Link:
+         F:\VS15\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\x64\Debug\QRCode_Detection.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\opencv\build\x64\vc14\lib opencv_world343d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\x64\Debug\QRCode_Detection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\x64\Debug\QRCode_Detection.lib" /MACHINE:X64 x64\Debug\Source.obj
+         QRCode_Detection.vcxproj -> C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\x64\Debug\QRCode_Detection.exe
+     1>Done Building Project "C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\QRCode_Detection\QRCode_Detection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.53

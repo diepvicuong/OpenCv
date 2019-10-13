@@ -1,0 +1,46 @@
+﻿Build started 19-Sep-18 11:31:16 AM.
+     1>Project "C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\QRCode_Detection\QRCode_Detection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\VS15\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /IF:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(81): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(210): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Source.cpp(211): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Source.cpp(212): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>Source.cpp(48): warning C4101: 'arear': unreferenced local variable
+     1>Source.cpp(48): warning C4101: 'large': unreferenced local variable
+     1>Source.cpp(48): warning C4101: 'padding': unreferenced local variable
+     1>Source.cpp(48): warning C4101: 'areat': unreferenced local variable
+     1>Source.cpp(48): warning C4101: 'areab': unreferenced local variable
+     1>Source.cpp(180): warning C4101: 'area_right': unreferenced local variable
+     1>Source.cpp(180): warning C4101: 'area_bottom': unreferenced local variable
+     1>Source.cpp(180): warning C4101: 'area_top': unreferenced local variable
+     1>Source.cpp(371): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>Source.cpp(372): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>Source.cpp(374): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>Source.cpp(375): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>Source.cpp(429): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>Source.cpp(430): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+       Link:
+         F:\VS15\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\x64\Release\QRCode_Detection.exe" /INCREMENTAL:NO /NOLOGO opencv_world343d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\x64\Release\QRCode_Detection.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\x64\Release\QRCode_Detection.lib" /MACHINE:X64 x64\Release\Source.obj
+     1>Source.obj : error LNK2001: unresolved external symbol "double __cdecl cv::contourArea(class cv::_InputArray const &,bool)" (?contourArea@cv@@YANAEBV_InputArray@1@_N@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "void __cdecl cv::drawContours(class cv::_InputOutputArray const &,class cv::_InputArray const &,int,class cv::Scalar_<double> const &,int,int,class cv::_InputArray const &,int,class cv::Point_<int>)" (?drawContours@cv@@YAXAEBV_InputOutputArray@1@AEBV_InputArray@1@HAEBV?$Scalar_@N@1@HH1HV?$Point_@H@1@@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "void __cdecl cv::imshow(class cv::String const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBVString@1@AEBV_InputArray@1@@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "class cv::Mat __cdecl cv::getPerspectiveTransform(class cv::_InputArray const &,class cv::_InputArray const &)" (?getPerspectiveTransform@cv@@YA?AVMat@1@AEBV_InputArray@1@0@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "double __cdecl cv::threshold(class cv::_InputArray const &,class cv::_OutputArray const &,double,double,int)" (?threshold@cv@@YANAEBV_InputArray@1@AEBV_OutputArray@1@NNH@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "class cv::Moments __cdecl cv::moments(class cv::_InputArray const &,bool)" (?moments@cv@@YA?AVMoments@1@AEBV_InputArray@1@_N@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "void __cdecl cv::warpPerspective(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::_InputArray const &,class cv::Size_<int>,int,int,class cv::Scalar_<double> const &)" (?warpPerspective@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@0V?$Size_@H@1@HHAEBV?$Scalar_@N@1@@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "void __cdecl cv::putText(class cv::_InputOutputArray const &,class cv::String const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXAEBV_InputOutputArray@1@AEBVString@1@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "void __cdecl cv::line(class cv::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?line@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@1AEBV?$Scalar_@N@1@HHH@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "void __cdecl cv::Canny(class cv::_InputArray const &,class cv::_OutputArray const &,double,double,int,bool)" (?Canny@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@NNH_N@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "class cv::Rect_<int> __cdecl cv::boundingRect(class cv::_InputArray const &)" (?boundingRect@cv@@YA?AV?$Rect_@H@1@AEBV_InputArray@1@@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "void __cdecl cv::copyMakeBorder(class cv::_InputArray const &,class cv::_OutputArray const &,int,int,int,int,int,class cv::Scalar_<double> const &)" (?copyMakeBorder@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HHHHHAEBV?$Scalar_@N@1@@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "void __cdecl cv::circle(class cv::_InputOutputArray const &,class cv::Point_<int>,int,class cv::Scalar_<double> const &,int,int,int)" (?circle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@HAEBV?$Scalar_@N@1@HHH@Z)
+     1>Source.obj : error LNK2001: unresolved external symbol "void __cdecl cv::findContours(class cv::_InputOutputArray const &,class cv::_OutputArray const &,class cv::_OutputArray const &,int,int,class cv::Point_<int>)" (?findContours@cv@@YAXAEBV_InputOutputArray@1@AEBV_OutputArray@1@1HHV?$Point_@H@1@@Z)
+     1>C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\x64\Release\QRCode_Detection.exe : fatal error LNK1120: 15 unresolved externals
+     1>Done Building Project "C:\Users\ASUS\Desktop\OpenCv_project\QRCode_Detection\QRCode_Detection\QRCode_Detection.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.09
